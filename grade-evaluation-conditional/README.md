@@ -40,3 +40,9 @@ Evaluates a student's grade based on input provided via `prompt()` and displays 
 - HTML5
 - Vanilla JavaScript
 - Bootstrap [5.3.3](https://getbootstrap.com/docs/5.3/getting-started/introduction/)
+
+---
+ 
+## Preview
+
+https://github.com/user-attachments/assets/2e7cdad2-dd13-46ad-ad47-8d58dbae41ab
