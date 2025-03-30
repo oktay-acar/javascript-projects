@@ -42,3 +42,10 @@ Alerts disappear automatically after a few seconds.
 - HTML5
 - Vanilla JavaScript
 - Bootstrap [5.3.3](https://getbootstrap.com/docs/5.3/getting-started/introduction/)
+
+---
+ 
+## Preview
+
+https://github.com/user-attachments/assets/205acfce-1326-4cdf-bf31-8536933bfdcd
+
