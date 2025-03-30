@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Oktay Acar" />
+    <title>User Scores</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Font Awesome 6.7.2 CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <!-- Bootstrap 5.3.3 CSS-->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+  </head>
+
+  <body>
+    <section>
+      <!-- Alert Container -->
+      <div id="alert-container" class="mb-5 pb-5">
+        <!-- Dynamically added content via JavaScript -->
+
+        <!-- <div
+          class="alert alert-success alert-dismissible fade show ps-4 fixed-top"
+          role="alert"
+        >
+          <i class="fa-solid fa-triangle-exclamation text-danger fs-5"></i>
+          <i class="fa-solid fa-circle-check text-success fs-5"></i>
+          <i class="fa-solid fa-circle-info text-info"></i>
+
+          <strong>title</strong> <br />Message -->
+
+          <!-- <button
+            type="button"
+            class="btn-close shadow-none"
+            data-bs-dismiss="alert"
+            aria-label="Close"
+          ></button> -->
+        </div>
+      </div>
+
+      <div class="container">
+        <h1 class="text-center fw-bolder m-3">USER SCORES</h1>
+
+        <hr class="custom-hr" />
+
+        <div class="row align-items-center justify-content-center p-3">
+          <div class="col-6 p-3 d-flex justify-content-center">
+            <!-- Form -->
+            <form id="user-form">
+              <!-- Username -->
+              <div class="mb-4">
+                <label for="username" class="form-label">Username</label>
+                <input
+                  id="username"
+                  type="text"
+                  class="form-control shadow-none border-0"
+                  placeholder="username"
+                />
+              </div>
+
+              <!-- User Score -->
+              <div class="mb-4">
+                <label for="score" class="form-label">Score</label>
+                <input
+                  id="score"
+                  type="number"
+                  class="form-control shadow-none border-0"
+                  placeholder="score (0-100)"
+                />
+              </div>
+
+              <!-- Submit & Reset Buttons -->
+              <div>
+                <div class="d-flex justify-content-between">
+                  <button type="submit" class="btn btn-success shadow-none">Submit</button>
+                  <button type="reset" class="btn btn-danger shadow-none">Reset</button>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+
+        <!-- List Container -->
+        <div
+          id="list-container"
+          class="row align-items-center justify-content-center mb-5 p-3 d-none"
+        >
+          <hr class="mb-4" />
+
+          <div class="col-6">
+            <h2 class="text-center fw-bolder">Score List</h2>
+            <ul id="user-list" class="list-group mb-4">
+              <!-- Dynamically added content via JavaScript -->
+
+              <!-- <li
+              class="list-group-item d-flex align-items-center justify-content-between p-3"
+            >
+              Item 1<span
+                class="badge bg-primary-subtle text-primary-emphasis border border-primary-subtle rounded-pill p-2"
+                >Score: 100</span
+              >
+            </li> -->
+            </ul>
+
+            <!-- Clear List Button -->
+            <div>
+              <button id="clear" type="reset" class="btn btn-danger shadow-none">
+                Clear List
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer
+      class="d-flex justify-content-center align-items-center bg-dark fixed-bottom p-2"
+    >
+      <p class="fs-4 mb-0 px-3">
+        <span class="text-light">&copy; 2025 |</span>
+        <span class="text-primary">Oktay Acar</span>
+        <a
+          class="d-inline-block mx-3 fs-3 github-link"
+          href="https://github.com/oktay-acar"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <i class="fa-brands fa-github"></i>
+        </a>
+      </p>
+    </footer>
+
+    <!-- Bootstrap 5.3.3 Bundle (includes Popper) -->
+    <!-- <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script> -->
+
+    <!-- Custom JavaScript -->
+    <script src="assets/js/script.js"></script>
+  </body>
+</html>

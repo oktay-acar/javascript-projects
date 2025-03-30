@@ -8,6 +8,7 @@ This repository contains a collection of JavaScript projects, where I applied my
 2. **Counter**
    - **Counter with `localStorage`**
    - **Counter without `localStorage`**
+3. **User Scores**
 
 Details are provided in the individual **README** files within each folder.
 
