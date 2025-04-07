@@ -9,6 +9,7 @@ This repository contains a collection of JavaScript projects, where I applied my
    - **Counter with `localStorage`**
    - **Counter without `localStorage`**
 3. **User Scores**
+4. **Real-Time Clock with User Greeting**
 
 Details are provided in the individual **README** files within each folder.
 

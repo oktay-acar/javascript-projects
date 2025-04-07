@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Oktay Acar" />
+    <title>Real-Time Clock with User Greeting</title>
+
+    <!-- Google Fonts: Roboto -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Font Awesome 6.7.2 CDN -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <!-- Bootstrap 5.3.3 CDN -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <div class="container text-center">
+      <!-- Start Button -->
+      <div class="button-container m-5 p-3">
+        <button id="start" class="btn btn-primary fs-2">Click to Start</button>
+      </div>
+
+      <!-- User Clock Container -->
+      <div class="user-clock-container m-5 p-3">
+        <div class="display-1 fw-bold mb-4">
+          Hello, <strong><span id="username" class="fw-bold"></span></strong>
+        </div>
+        <div class="display-3">
+          <p class="fw-semibold">Date: <span id="current-date"></span></p>
+          <p class="fw-semibold">Time: <span id="current-time"></span></p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Footer -->
+    <footer
+      class="d-flex justify-content-center align-items-center bg-dark fixed-bottom p-2"
+    >
+      <p class="fs-4 mb-0 px-3">
+        <span class="text-light">&copy; 2025 |</span>
+        <span class="text-primary">Oktay Acar</span>
+        <a
+          class="d-inline-block mx-3 fs-3 github-link"
+          href="https://github.com/oktay-acar"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <i class="fa-brands fa-github"></i>
+        </a>
+      </p>
+    </footer>
+
+    <!-- Custom JavaScript -->
+    <script src="assets/js/script.js"></script>
+
+    <!-- Custom Alternative JavaScript -->
+    <!-- <script src="assets/js/alternative-script.js"></script> -->
+  </body>
+</html>
