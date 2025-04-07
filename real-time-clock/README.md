@@ -35,3 +35,9 @@ By default, **script.js** is used in `index.html`. If you would like to use **al
 - HTML5
 - Vanilla JavaScript
 - Bootstrap [5.3.3](https://getbootstrap.com/docs/5.3/getting-started/introduction/)
+
+---
+
+## Preview
+
+https://github.com/user-attachments/assets/976a2f9e-1882-4d96-bb6f-af941e7302d9
