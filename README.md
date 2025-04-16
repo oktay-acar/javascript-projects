@@ -1,6 +1,6 @@
-# JavaScript Projects
+# 🗂️ JavaScript Projects
 
-## Description
+## 📝 Description
 
 This repository contains a collection of JavaScript projects, where I applied my own unique approaches and methods.
 
@@ -15,12 +15,12 @@ Details are provided in the individual **README** files within each folder.
 
 ---
 
-## License
+## 📄 License
 
 This repository is licensed under the [MIT License](https://github.com/oktay-acar/javascript-projects/blob/main/LICENSE).
 
 ---
 
-## Author
+## 👨🏻‍💻 Author
 
-[Oktay Acar](https://github.com/oktay-acar)
+Created with ❤️ by **[Oktay Acar](https://github.com/oktay-acar)**, 2025.

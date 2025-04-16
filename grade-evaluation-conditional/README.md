@@ -1,12 +1,12 @@
-# Grade Evaluation with Conditional Statements
+# 🗂️ Grade Evaluation with Conditional Statements
 
-## Description
+## 📝 Description
 
 Conditional statements _(`if`, `else if`, `else`)_ are used to evaluate and display student grades. The user inputs their name and score, and a grade is assigned based on the score.
 
 ---
 
-## How It Works
+## 🔧 How It Works
 
 Evaluates a student's grade based on input provided via `prompt()` and displays the result in a styled format. Here's how it works:
 
@@ -35,14 +35,29 @@ Evaluates a student's grade based on input provided via `prompt()` and displays 
 
 ---
 
-## Technologies Used
+## 🛠️ Technologies Used
 
 - HTML5
-- Vanilla JavaScript
+- CSS3 _(Custom Styles via JavaScript)_
+- Vanilla JavaScript _(ES6+)_
 - Bootstrap [5.3.3](https://getbootstrap.com/docs/5.3/getting-started/introduction/)
+- Font Awesome [6.7.2](https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css)
 
 ---
- 
-## Preview
+
+## 🎬 Preview
 
 https://github.com/user-attachments/assets/2e7cdad2-dd13-46ad-ad47-8d58dbae41ab
+
+---
+
+## 📄 License
+
+This project is part of the [javascript-projects](https://github.com/oktay-acar/javascript-projects) repository.  
+Licensed under the [MIT License](https://github.com/oktay-acar/javascript-projects/blob/main/LICENSE).
+
+---
+
+## 👨🏻‍💻 Author
+
+Created with ❤️ by **[Oktay Acar](https://github.com/oktay-acar)**, 2025.

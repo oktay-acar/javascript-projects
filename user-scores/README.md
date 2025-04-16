@@ -1,6 +1,6 @@
-# User Scores
+# 🗂️ User Scores
 
-## Description
+## 📝 Description
 
 This is a simple application for collecting and displaying user scores.
 
@@ -8,7 +8,7 @@ It allows users to enter their name and score, submit the form, and view the lis
 
 ---
 
-## Features
+## ⚙️ Features
 
 - Form to submit username and score.
 - Display list of submitted users with their scores.
@@ -17,7 +17,7 @@ It allows users to enter their name and score, submit the form, and view the lis
 
 ---
 
-## Usage
+## 📖 Usage
 
 - **Enter Username**: Type a username into the provided input field.
 - **Enter Score**: Type a score between 0 and 100.
@@ -27,7 +27,7 @@ It allows users to enter their name and score, submit the form, and view the lis
 
 ---
 
-## Alerts
+## 🚨 Alerts
 
 Alerts disappear automatically after a few seconds.
 
@@ -37,15 +37,29 @@ Alerts disappear automatically after a few seconds.
 
 ---
 
-## Technologies Used
+## 🛠️ Technologies Used
 
 - HTML5
-- Vanilla JavaScript
+- CSS3 _(Custom Styles via JavaScript)_
+- Vanilla JavaScript _(ES6+)_
 - Bootstrap [5.3.3](https://getbootstrap.com/docs/5.3/getting-started/introduction/)
+- Font Awesome [6.7.2](https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css)
 
 ---
- 
-## Preview
+
+## 🎬 Preview
 
 https://github.com/user-attachments/assets/205acfce-1326-4cdf-bf31-8536933bfdcd
 
+---
+
+## 📄 License
+
+This project is part of the [javascript-projects](https://github.com/oktay-acar/javascript-projects) repository.  
+Licensed under the [MIT License](https://github.com/oktay-acar/javascript-projects/blob/main/LICENSE).
+
+---
+
+## 👨🏻‍💻 Author
+
+Created with ❤️ by **[Oktay Acar](https://github.com/oktay-acar)**, 2025.
