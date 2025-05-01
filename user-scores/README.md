@@ -37,6 +37,25 @@ Alerts disappear automatically after a few seconds.
 
 ---
 
+## 📥 How to Run Locally
+
+1. Clone the repository to your local machine.
+
+   ```bash
+   git clone https://github.com/oktay-acar/javascript-projects.git
+   ```
+
+2. Navigate to the project folder within the repository.
+
+   ```bash
+   cd javascript-projects/user-scores
+   ```
+
+3. Open the `index.html` file in your browser by double-clicking it
+   or use a live server extension _(e.g., with VS Code)_.
+
+---
+
 ## 🛠️ Technologies Used
 
 - HTML5
@@ -50,6 +69,13 @@ Alerts disappear automatically after a few seconds.
 ## 🎬 Preview
 
 https://github.com/user-attachments/assets/205acfce-1326-4cdf-bf31-8536933bfdcd
+
+---
+
+## 🤝 Contributing
+
+Contributions, issues, and feature requests are welcome!  
+Feel free to fork the repository, open issues, or submit pull requests.
 
 ---
 

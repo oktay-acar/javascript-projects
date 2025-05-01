@@ -15,6 +15,19 @@ Details are provided in the individual **README** files within each folder.
 
 ---
 
+## 📥 How to Run Locally
+
+For detailed setup instructions, please refer to the **README** file of each individual project.
+
+---
+
+## 🤝 Contributing
+
+Contributions, issues, and feature requests are welcome!  
+Feel free to fork the repository, open issues, or submit pull requests.
+
+---
+
 ## 📄 License
 
 This repository is licensed under the [MIT License](https://github.com/oktay-acar/javascript-projects/blob/main/LICENSE).

@@ -14,6 +14,13 @@ https://github.com/user-attachments/assets/6e73f8a0-0ac8-4c05-9a84-dce3ff37210d
 
 ---
 
+## 🤝 Contributing
+
+Contributions, issues, and feature requests are welcome!  
+Feel free to fork the repository, open issues, or submit pull requests.
+
+---
+
 ## 📄 License
 
 This project is part of the [javascript-projects](https://github.com/oktay-acar/javascript-projects) repository.  

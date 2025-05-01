@@ -30,6 +30,25 @@ By default, **script.js** is used in `index.html`. If you would like to use **al
 
 ---
 
+## 📥 How to Run Locally
+
+1. Clone the repository to your local machine.
+
+   ```bash
+   git clone https://github.com/oktay-acar/javascript-projects.git
+   ```
+
+2. Navigate to the project folder within the repository.
+
+   ```bash
+   cd javascript-projects/real-time-clock
+   ```
+
+3. Open the `index.html` file in your browser by double-clicking it
+   or use a live server extension _(e.g., with VS Code)_.
+
+---
+
 ## 🛠️ Technologies Used
 
 - HTML5
@@ -43,6 +62,13 @@ By default, **script.js** is used in `index.html`. If you would like to use **al
 ## 🎬 Preview
 
 https://github.com/user-attachments/assets/976a2f9e-1882-4d96-bb6f-af941e7302d9
+
+---
+
+## 🤝 Contributing
+
+Contributions, issues, and feature requests are welcome!  
+Feel free to fork the repository, open issues, or submit pull requests.
 
 ---
 

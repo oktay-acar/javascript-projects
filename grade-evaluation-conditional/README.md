@@ -35,6 +35,25 @@ Evaluates a student's grade based on input provided via `prompt()` and displays 
 
 ---
 
+## 📥 How to Run Locally
+
+1. Clone the repository to your local machine.
+
+   ```bash
+   git clone https://github.com/oktay-acar/javascript-projects.git
+   ```
+
+2. Navigate to the project folder within the repository.
+
+   ```bash
+   cd javascript-projects/grade-evaluation-conditional
+   ```
+
+3. Open the `index.html` file in your browser by double-clicking it
+   or use a live server extension _(e.g., with VS Code)_.
+
+---
+
 ## 🛠️ Technologies Used
 
 - HTML5
@@ -48,6 +67,13 @@ Evaluates a student's grade based on input provided via `prompt()` and displays 
 ## 🎬 Preview
 
 https://github.com/user-attachments/assets/2e7cdad2-dd13-46ad-ad47-8d58dbae41ab
+
+---
+
+## 🤝 Contributing
+
+Contributions, issues, and feature requests are welcome!  
+Feel free to fork the repository, open issues, or submit pull requests.
 
 ---
 

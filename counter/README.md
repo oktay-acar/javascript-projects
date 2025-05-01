@@ -21,6 +21,33 @@ It is available in two versions:
 
 ---
 
+## 📥 How to Run Locally
+
+1. Clone the repository to your local machine.
+
+   ```bash
+     git clone https://github.com/oktay-acar/javascript-projects.git
+   ```
+
+2. Navigate to the project folder within the repository.
+
+   - **Counter with `localStorage`**
+
+   ```bash
+   cd javascript-projects/counter/counter-with-localStorage
+   ```
+
+   - **Counter without `localStorage`**
+
+   ```bash
+   cd javascript-projects/counter/counter-without-localStorage
+   ```
+
+3. Open the `index.html` file in your browser by double-clicking it
+   or use a live server extension _(e.g., with VS Code)_.
+
+---
+
 ## 🛠️ Technologies Used
 
 - HTML5
@@ -35,6 +62,13 @@ It is available in two versions:
 ## 💡 Notes
 
 - The counter does not require any backend server. All the operations _(increase, decrease, reset)_ are handled on the frontend using **Vanilla JavaScript**.
+
+---
+
+## 🤝 Contributing
+
+Contributions, issues, and feature requests are welcome!  
+Feel free to fork the repository, open issues, or submit pull requests.
 
 ---
 
