@@ -79,6 +79,12 @@ This is a **Simple Accordion** that demonstrates dynamic toggling of accordion i
 
 ---
 
+## 🎬 Preview
+
+https://github.com/user-attachments/assets/edd6838c-dc70-404f-9636-b52e81f69d16
+
+---
+
 ## 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome!  
