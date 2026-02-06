@@ -1,0 +1,173 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Oktay Acar" />
+    <title>Simple Accordion</title>
+
+    <!-- Font Awesome 7.0.1 CDN -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+      integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="assets/css/style.css" />
+
+    <!-- Custom JavaScript -->
+    <script defer src="assets/js/script.js"></script>
+  </head>
+  <body>
+    <h1 class="page-title">Simple Accordion</h1>
+
+    <hr />
+
+    <!-- ACCORDION CONTAINER -->
+    <section class="accordion-container">
+      <!-- Accordion 1 -->
+      <div class="accordion-item">
+        <button class="accordion-header">
+          Accordion 1
+          <span class="accordion-icon">
+            <i class="fa-solid fa-chevron-down icon-closed icon"></i>
+          </span>
+        </button>
+        <div class="accordion-content">
+          <p class="content-text">
+            Nam nec quam mollis, dictum augue ut, efficitur felis. Aliquam
+            blandit aliquet dolor quis tincidunt. Cras faucibus finibus metus.
+            Pellentesque sit amet mattis ligula. Nunc tempor ipsum in.
+          </p>
+        </div>
+      </div>
+      <!-- Accordion 2 -->
+      <div class="accordion-item">
+        <button class="accordion-header">
+          Accordion 2
+          <span class="accordion-icon">
+            <i class="fa-solid fa-chevron-down icon-closed icon"></i>
+          </span>
+        </button>
+        <div class="accordion-content">
+          <p class="content-text">
+            Sed placerat nunc mattis metus hendrerit molestie. Vivamus mi
+            turpis, interdum quis sodales quis, tempus ac purus. Cras a metus
+            sed massa sodales lacinia. Maecenas at ultricies risus.
+          </p>
+        </div>
+      </div>
+      <!-- Accordion 3 -->
+      <div class="accordion-item">
+        <button class="accordion-header">
+          Accordion 3
+          <span class="accordion-icon">
+            <i class="fa-solid fa-chevron-down icon-closed icon"></i>
+          </span>
+        </button>
+        <div class="accordion-content">
+          <p class="content-text">
+            Quisque viverra scelerisque risus vitae porta. Curabitur vitae
+            mattis velit. Duis faucibus dictum nisi nec bibendum. In volutpat
+            diam sed ultrices tincidunt. Sed velit arcu, tempor sed vestibulum.
+          </p>
+        </div>
+      </div>
+      <!-- Accordion 4 -->
+      <div class="accordion-item">
+        <button class="accordion-header">
+          Accordion 4
+          <span class="accordion-icon">
+            <i class="fa-solid fa-chevron-down icon-closed icon"></i>
+          </span>
+        </button>
+        <div class="accordion-content">
+          <p class="content-text">
+            Cras volutpat, mauris ac bibendum interdum, justo lectus tempor
+            neque, at commodo tellus nisl ac metus. Donec varius suscipit
+            laoreet. Nullam mollis purus ac dolor consequat volutpat vel.
+          </p>
+        </div>
+      </div>
+      <!-- Accordion 5 -->
+      <div class="accordion-item">
+        <button class="accordion-header">
+          Accordion 5
+          <span class="accordion-icon">
+            <i class="fa-solid fa-chevron-down icon-closed icon"></i>
+          </span>
+        </button>
+        <div class="accordion-content">
+          <p class="content-text">
+            Praesent hendrerit sodales eros ut elementum. Mauris interdum
+            tincidunt felis nec sagittis. Nunc at velit dolor. Praesent mollis,
+            ipsum quis elementum consectetur, enim felis dapibus odio, non
+            aliquet.
+          </p>
+        </div>
+      </div>
+      <!-- Accordion 6 -->
+      <div class="accordion-item">
+        <button class="accordion-header">
+          Accordion 6
+          <span class="accordion-icon">
+            <i class="fa-solid fa-chevron-down icon-closed icon"></i>
+          </span>
+        </button>
+        <div class="accordion-content">
+          <p class="content-text">
+            Nullam venenatis dui non turpis finibus, nec accumsan augue
+            consectetur. Ut facilisis quis lectus nec faucibus. Praesent
+            eleifend sapien ut dui facilisis, maximus volutpat sapien porttitor.
+            Vestibulum et.
+          </p>
+        </div>
+      </div>
+      <!-- Accordion 7 -->
+      <div class="accordion-item">
+        <button class="accordion-header">
+          Accordion 7
+          <span class="accordion-icon">
+            <i class="fa-solid fa-chevron-down icon-closed icon"></i>
+          </span>
+        </button>
+        <div class="accordion-content">
+          <p class="content-text">
+            Ut luctus consectetur nisl sed scelerisque. Duis id dapibus felis.
+            Sed a massa a augue fermentum mollis. Pellentesque habitant morbi
+            tristique senectus et netus et malesuada fames ac.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+      <div class="footer-content">
+        <span class="footer-text">&copy; 2026 |</span>
+        <span class="footer-author">Oktay Acar</span>
+        <a
+          class="github-link"
+          href="https://github.com/oktay-acar"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <i
+            class="fa-brands fa-github footer-github-icon"
+            title="Oktay Acar's GitHub Profile"
+          ></i>
+        </a>
+      </div>
+
+      <!-- Scroll to top -->
+      <div>
+        <button id="scroll-top" class="arrow-up">
+          <i class="fa-solid fa-circle-arrow-up footer-arrow-icon"></i>
+        </button>
+      </div>
+    </footer>
+  </body>
+</html>

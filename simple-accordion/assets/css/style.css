@@ -1,0 +1,252 @@
+/* Google Fonts: Roboto */
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+
+/* VARIABLES */
+/* --------- */
+/* 
+Flat UI Colors 
+https://flatuicolors.com/
+Aussie Palette: 
+- Exodus Fruit #686de0
+  -- Tint & Shade Generator
+      https://maketintsandshades.com/
+*/
+
+:root {
+  /* Core Colors */
+  --color-light: #f0f0fc;
+  --color-medium: #b4b6f0;
+  --color-dark: #5357b3;
+  --color-text-dark: #1f2143;
+
+  /* Body Colors */
+  --body-bg: #e1e2f9;
+  --body-text: #2a2c5a;
+
+  /* Accordion Header */
+  --accordion-header-bg-closed: var(--color-dark);
+  --accordion-header-text-closed: var(--color-light);
+  --accordion-header-bg-open: var(--color-light);
+  --accordion-header-text-open: var(--color-dark);
+
+  /* Accordion Icons */
+  --icon-close-color: var(--color-light);
+  --icon-open-color: var(--color-dark);
+
+  /* Accordion Content */
+  --accordion-content-bg: var(--color-medium);
+  --accordion-content-text: var(--color-text-dark);
+  --active-accordion-border: var(--color-dark);
+
+  /* Footer */
+  --footer-bg: #343770;
+  --footer-primary-color: var(--color-light);
+  --footer-secondary-color: var(--color-medium);
+}
+
+/* GLOBAL STYLES */
+/* ------------- */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+html {
+  font-size: 62.5%;
+  /* overflow-y: scroll; */
+}
+
+body {
+  /* min-height: 100vh; */
+  min-height: 150vh; /* For observing scrollIntoView() behavior with limited content */
+  background-color: var(--body-bg);
+  color: var(--body-text);
+  font-family: "Roboto", Tahoma, sans-serif;
+}
+
+.page-title {
+  font-size: 4.8rem;
+  text-align: center;
+  margin: 2rem;
+  margin: 4.8rem 0 2.4rem;
+}
+
+/* ACCORDION CONTAINER */
+/* ------------------- */
+.accordion-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  max-width: 600px;
+  margin: 2rem auto;
+  padding: 2rem;
+  min-height: auto;
+  overflow: visible;
+}
+
+/* Accordion Items */
+.accordion-item {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 500px;
+  margin-bottom: 0.5rem;
+  border: solid 2px transparent;
+}
+
+.accordion-item:has(.accordion-content.active) {
+  border: solid 2px var(--active-accordion-border);
+  border-radius: 10px;
+}
+
+/* Accordion Buttons */
+.accordion-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  /* position: relative;
+  text-align: left; */
+  font-family: inherit;
+  font-size: 2.6rem;
+  padding: 0.5rem 1rem 0.5rem 0.5rem;
+  cursor: pointer;
+  border: none;
+  border-radius: 10px;
+  background-color: var(--accordion-header-bg-closed);
+  color: var(--accordion-header-text-closed);
+  transition:
+    background-color 0.5s ease,
+    color 0.5s ease;
+}
+
+.accordion-header:hover {
+  background-color: var(--accordion-header-bg-open);
+  color: var(--color-text-dark);
+}
+
+.accordion-item:has(.accordion-content.active) .accordion-header {
+  border-radius: 10px 10px 0 0;
+  background-color: var(--accordion-header-bg-open);
+  color: var(--accordion-header-text-open);
+}
+
+.accordion-item:has(.accordion-content.active) .accordion-header:hover {
+  color: var(--color-text-dark);
+}
+
+/* Accordion Icons */
+.icon {
+  /* position: absolute;
+  right: 1rem;
+  top: 50%;
+  transform: translateY(-50%); */
+  font-size: 2rem;
+}
+
+.icon-closed {
+  color: var(--icon-close-color);
+}
+
+.icon-opened {
+  color: var(--icon-open-color);
+}
+
+.accordion-header:hover .icon {
+  color: var(--color-text-dark);
+}
+
+.accordion-icon .icon {
+  transition: transform 0.3s ease;
+}
+
+.accordion-icon .icon.icon-opened {
+  transform: rotate(180deg);
+}
+
+/* Accordion Contents */
+.accordion-content {
+  /* display: none; */
+  max-height: 0;
+  overflow: hidden;
+  border-radius: 10px;
+  background-color: var(--accordion-content-bg);
+  color: var(--accordion-content-text);
+  transition:
+    max-height 0.5s ease,
+    border-radius 0.1s ease;
+}
+
+.accordion-content.active {
+  /* display: block; */
+  max-height: 500px;
+  border-radius: 0 0 10px 10px;
+}
+
+.content-text {
+  font-size: 1.8rem;
+  margin: 1rem;
+  line-height: 1.5;
+}
+
+/* FOOTER */
+/* ------ */
+.footer {
+  display: flex;
+  align-items: center;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  padding: 0.8rem 1.6rem;
+  background-color: var(--footer-bg);
+}
+
+.footer-content {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+  margin: 0 auto;
+}
+
+.footer-text {
+  font-size: 2.4rem;
+  color: var(--footer-primary-color);
+}
+
+.footer-author {
+  font-size: 2.4rem;
+  color: var(--footer-secondary-color);
+}
+
+.github-link {
+  margin: 0 1.6rem;
+}
+
+.arrow-up {
+  border: none;
+  background: none;
+  cursor: pointer;
+}
+
+.github-link,
+.arrow-up {
+  display: inline-block;
+  /* transition: all 0.5s ease; */
+  transition:
+    transform 0.5s ease,
+    color 0.5s ease;
+  color: var(--footer-primary-color);
+}
+
+.github-link:hover,
+.arrow-up:hover {
+  transform: scale(1.3);
+  color: var(--footer-secondary-color);
+}
+
+.footer-github-icon,
+.footer-arrow-icon {
+  font-size: 2.8rem;
+}
